@@ -72,7 +72,7 @@ fullClassTree.fit(X_train, y_train)
 #evaluation train accuracy
 print("Training Accuracy (WITH CLOSE PRICE):")
 classificationSummary(y_train, fullClassTree.predict(X_train))
-# (8:32 pm 24 Nov) 78% - open to suggestions on how to improve accuracy
+# (8:43 pm 24 Nov) 88% - open to suggestions on how to improve accuracy
 
 # visualizing the tree
 print("Decision Tree Representation (WITH CLOSE PRICE):")
@@ -106,7 +106,7 @@ fullClassTree.fit(X_train, y_train)
 #evaluation train accuracy
 print("Training Accuracy (WITHOUT CLOSE PRICE):")
 classificationSummary(y_train, fullClassTree.predict(X_train))
-# (8:32 pm 24 Nov) 78% - open to suggestions on how to improve accuracy
+# (8:43 pm 24 Nov) 88% - open to suggestions on how to improve accuracy
 
 # visualizing the tree
 print("Decision Tree Representation (WITHOUT CLOSE PRICE):")
